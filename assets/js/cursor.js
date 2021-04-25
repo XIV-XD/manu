@@ -33,12 +33,12 @@ $(document).on("mousemove", function (e) {
   mouseY = e.pageY;
 });
 
-$(".portfolio-item img").on("mouseenter", function () {
+$(".redcursor").on("mouseenter", function () {
   cursor.addClass("active");
   follower.addClass("active");
 });
 
-$(".portfolio-item img").on("mouseleave", function () {
+$(".redcursor").on("mouseleave", function () {
   cursor.removeClass("active");
   follower.removeClass("active");
 });
