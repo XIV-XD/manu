@@ -9,7 +9,7 @@ body {
 * {
   box-sizing: border-box;
 }
-
+@media (hover: hover) and (pointer: fine) {
 .cursordy {
   position: absolute;
   background: red;
@@ -65,4 +65,8 @@ body {
 .cursordy-follower.active {
   opacity: 0.3;
   transform: scale(0);
+}
+}
+.cursor-error{
+  cursor: pointer;
 }
