@@ -6310,19 +6310,19 @@ a:hover {
 
 	.block--contact .social-nav ul li {
 		display: inline-block;
-		margin: 0 12px
+		margin: 0 8px
 	}
 
 	.block--contact .social-nav ul li a {
 		color: inherit;
 		text-transform: uppercase;
 		text-decoration: none;
-		font-size: 14px
+		font-size: 10px
 	}
 
 	.block--contact .social-nav ul li a img {
-		max-width: 35px;
-		max-height: 35px
+		max-width: 30px;
+		max-height: 30px
 	}
 }
 
