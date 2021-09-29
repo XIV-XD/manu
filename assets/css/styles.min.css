@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 * {
     box-sizing: border-box
 }
@@ -14,7 +16,7 @@ body {
 }
 
 #vplayer {
-    width: 100%;
+    width: 70%;
     max-height: 100%
 }
 
@@ -39,7 +41,9 @@ canvas,
 progress,
 video {
     display: inline-block;
-    vertical-align: baseline
+    vertical-align: baseline;
+    display: block;
+  margin: auto;
 }
 
 audio:not([controls]) {
@@ -4917,7 +4921,7 @@ img.responsive {
     line-height: 42px;
     margin-top: -30px;
     text-align: left;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 33px;
@@ -4984,9 +4988,9 @@ img.responsive {
         transform: scale(0)
     }
 
-    .portfolio-thumb img {
+    /* .portfolio-thumb img {
         opacity: .4
-    }
+    } */
 
     .portfolio-item:hover .portfolio-thumb {
         transform: translateX(-12.75rem)
@@ -5008,7 +5012,7 @@ img.responsive {
 }
 
 #vplayer {
-    width: 100%;
+    width: 60%;
     max-height: 100%
 }
 
